@@ -1,0 +1,23 @@
+.color_red{
+    color:red;
+}
+.color_green{
+    color:green;
+}
+#red_link{
+     color:#C55
+
+}
+.border{
+    border: 1px solid black;
+}
+body{
+    font-family: 'Noto Serif', serif;
+}
+#image{
+    width: 150px; 
+    height:150px;
+}
+#description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
