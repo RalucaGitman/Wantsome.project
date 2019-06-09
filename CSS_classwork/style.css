@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    background-image:url('images/defocused.jpeg');
+    height: 120px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+    padding-bottom: 40px;
+}
+
+.container {
+    border: aqua solid;
+    margin-top: 50px;
+    padding-bottom: 250px;
+    box-sizing: border-box;
+
+}
+#navbar{
+    background-color: whitesmoke;
+    border: purple solid;
+    float: left;
+    width: 13%;
+    height: 170px;
+    
+}
+#navbar li{
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color:purple;
+}
+#main {
+    background-color: antiquewhite;
+    color: blueviolet;
+    border: solid orange;
+    float: left;
+}
+.second {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    padding-bottom: 15px;
+    float:left;
+}
+.sections {
+    border: orange solid;
+    float: right;
+    box-sizing: border-box;
+    padding-bottom: 23px;
+    width:85%;
+}
+#main-footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    position: fixed;
+    margin-left: 980px;
+    margin-bottom: 40px;
+}
+
