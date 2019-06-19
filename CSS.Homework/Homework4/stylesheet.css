@@ -1,11 +1,8 @@
 @media only screen and (max-width:720px) {
-    * { 
-        display:flex;
-        flex-flow: column wrap;
-        flex-basis: 100%;
+    body .container-1 { 
+        display: block;
     }        
 }
-
 .container-1 {
     display: flex;
     justify-content: space-between;
@@ -13,7 +10,7 @@
 }
 .container-2{
     display: flex;
-    flex-basis: 62%; 
+    flex-basis: 63%; 
     flex-direction: column;
     justify-content: space-between;
 }
@@ -21,7 +18,7 @@
 .container-3 {
     display: flex;
     justify-content: space-between;
-    flex-basis: 53%;
+    flex-basis: 30%;
 }
 
 .container-4 {
@@ -39,7 +36,7 @@
 
 #wide-tile {
     background-color: lightcoral;
-    flex-basis: 40%;
+    flex-basis: 45%;
     padding: 1em;
     color: azure;
 }
@@ -51,7 +48,6 @@
     color: azure;
     align-items: center;
     flex-basis: 47%;
-    min-height: 300px;
     padding: 1em;
 
 }
@@ -62,14 +58,14 @@
 
 #bottom-tile {
     background-color: lightyellow;
-    height: 40%;
+    height: 38%;
     padding: 1em;
    
 }
 
 #top-tile{
     background-color: lightcyan;
-    height: 40%;
+    height: 38%;
     padding: 1em;
 }
 
