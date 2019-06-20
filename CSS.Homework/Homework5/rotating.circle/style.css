@@ -1,0 +1,71 @@
+body {
+  background-color: #2F4F4F;
+  margin: 100px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  -webkit-animation-name: betoniera;
+          animation-name: betoniera;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes betoniera {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes betoniera {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.container ::after {
+  background-color: #2F4F4F;
+  content: "";
+  position: absolute;
+  top: 25px;
+  bottom: 35px;
+  right: 95px;
+  left: 15px;
+  border-radius: 50%;
+}
+
+.container div {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#87cefa), color-stop(#00bfff), color-stop(#7b68ee), color-stop(#483d8b), color-stop(#ba55d3), color-stop(#9932cc), to(#4b0082));
+  background: linear-gradient(#87cefa, #00bfff, #7b68ee, #483d8b, #ba55d3, #9932cc, #4b0082);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+body {
+    background-color:lightblue;
+}
+.box1 {
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 100px;
+    transform: translate(400px,410px);
+    animation-name: anime1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes anime1 {
+    0% {background-color: white; left: 0px; top: 0px;}
+    30% {background-color:white; left: 210px; top: 0px;}
+    60% {background-color:red; left: 0px; top: 0px;}
+    80% {background-color: red; left: 0px; top: 0px;}
+    100% {background-color:red; left: 0px; top: 0px;}
+}
+
+.box2 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    border-radius: 100px;
+    transform: translate(600px,330px); 
+    animation-name: anime2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes anime2 {
+    0% {background-color: red; left: 0px; top: 0px;}
+    30% {background-color:red; left: 210px; top: 0px;}
+    40% {background-color:red; left: 210px; top: 0px;}
+    70% {background-color:blue; left: 0px; top: 0px;}
+    100% {background-color: blue; left: 0px; top: 0px;}
+}
+
+.box3 {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    position: relative;
+    border-radius: 100px;
+    transform: translate(800px,240px);
+    animation-name: anime3;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anime3 {
+    0% {background-color: blue; left: 0px; top: 0px; }
+    30% {background-color:blue; left: 210px; top: 0px; }
+    50% {background-color:green; left: 0px; top: 0px;}
+    100% {background-color: green; left: 0px; top: 0px;}
+    
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    position: relative;
+    border-radius: 100px;
+    transform: translate(1000px,140px);
+    animation-name: anime4;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes anime4 {
+    0% {background-color: green }
+    25% {background-color: blue }
+    60% {background-color: red }
+    80% {background-image: url(.//images/smile.jpg) }
+    90% {background-color: white }
+    100% {opacity: 0 }
+}
+
