@@ -1,13 +1,21 @@
-function anagram(word1, word2) {
-  var word1Alph = alphabetize(word1);
-  var word2Alph = alphabetize(word2);
-  return word1Alph === word2Alph;
+/*in clasa*/
+
+function isAnagram(word1 = "", word2 = "") {
+    if (word1.length !== word2.length) {
+        return false;
+    } else {
+        
+    }
+    const processedWord1 = word1
+    .split("")
+    .sort()
+    .join("");
+    const processedWord2 = word2
+    .split("")
+    .sort()
+    .join("");
+
+    return processedWord1 === processedWord2;
 }
 
-function alphabetize(word) {
-  var arr = word.split("");
-  arr.sort();
-  return arr.join("");
-}
-
-console.log(anagram("read", "dear"));
+console.log(isAnagram("costel", "celot"));

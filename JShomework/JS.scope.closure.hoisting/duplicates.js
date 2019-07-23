@@ -1,4 +1,4 @@
-function removeDuplicates(abcd) {
+/*function removeDuplicates(abcd) {
   var res = "".concat(abcd);
   var arr1 = res.split("");
   var arr2 = [];
@@ -10,3 +10,19 @@ function removeDuplicates(abcd) {
   return arr2.join("");
 }
 console.log(removeDuplicates(125548999));
+*/
+
+//in clasa
+function removeDupes(input) {
+  const result = [];
+  const stringifiedInput = String(input);
+
+  for( let i = 0; i <stringifiedInput.lenght; i++) {
+    if(!result.includes(stringifiedInput[i])) {
+      result.push(stringifiedInput[i]);
+    }
+ }
+ return result.join("");
+
+}
+console.log(removeDupes("aaabcdfff"));

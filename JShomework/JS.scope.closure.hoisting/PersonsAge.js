@@ -34,3 +34,19 @@ console.log(getOlder2([
     { name: "Eva", age: 29 }
   ]));
   */
+
+
+  /*rezolvare in clasa*/
+  /* const people = [
+    {name: "Costel", age: 23},
+    {name: "Dana", age: 45 },
+    {name: "Stefan", age: 16},
+  ];
+  function bouncePeople(people = [],fn) {
+    return people.filter(fn);
+  }
+
+  console.log(bouncePeople(people,function(person) {
+    return perspn.age > 23;
+  }),
+  */

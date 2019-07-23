@@ -9,3 +9,14 @@ function star() {
 }
 
 star();
+
+
+/* function prettyPrint(n = 5) {
+  let steluta = "*";
+  for (let i = o; i <n ; i++) {
+    console.log(steluta);
+    steluta+= "*";
+  }
+}
+prettyPrint(10);
+*/
